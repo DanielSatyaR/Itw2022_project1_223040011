@@ -16,9 +16,10 @@ a {
 .top-wrapper {
   padding: 180px 0 100px 0;
   background-image: url(img/daniel.jpeg);
-  background-size: contain;
+  background-size: cover;
   color: white;
   text-align: left;
+  background-position: 15% 35%;
 }
 
 .top-wrapper h1 {
@@ -127,4 +128,49 @@ header {
 
 .heading h3 {
   font-weight: normal;
+}
+
+.contact {
+  padding: 30px 0;
+}
+
+.contact h2 {
+  font-size: 40px;
+  color: aquamarine;
+  margin: 30px 0;
+  text-align: center;
+  text-shadow: 2px 3px 2px black;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+form {
+  width: 350px;
+  margin: 0 auto;
+  text-align: left;
+  color: white;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 90%;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+}
+
+form textarea {
+  height: 200px;
+}
+form button[type="submit"] {
+  background-color: #6366f1;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 10%;
 }
